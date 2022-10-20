@@ -1,8 +1,20 @@
 * {
-    background-color: rgb(209, 236, 110);
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'montserrat', sans-serif;
+}
+
+#snow {
+    position: absolute;
+    top: 10;
+    left: 10;
+    right: 10;
+    bottom: 10;
+    pointer-events: none;
+    z-index: 5;
+    width: 90%;
+    height: 95%;
 }
 
 body {
@@ -49,6 +61,8 @@ table {
 
 .weather-wrap {
     font-size: 20px;
+    z-index: 1;
+    position: abolute;
 }
 
 .location-box .wind-speed {
@@ -79,4 +93,4 @@ table, th, td {
     border: 1px solid black;
     border-collapse: collapse;
     padding: 6px;
-  }
+}
