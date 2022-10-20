@@ -1,0 +1,82 @@
+* {
+    background-color: rgb(209, 236, 110);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 25px;
+}
+
+.search-box {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.main-title {
+    text-align: center;
+    font-family: 'montserrat', sans-serif;
+}
+
+.sub-heading {
+    text-align: center;
+    font-family: 'montserrat', sans-serif;
+}
+
+hr {
+    background-color: #000;
+    height: 1px;
+    border: none;
+}
+
+table {
+    margin: 25px auto;
+}
+.search-box .search-bar {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    color: #313131;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 0px 16px 0px 16px;
+    align-items: center;
+}
+
+.weather-wrap {
+    font-size: 20px;
+}
+
+.location-box .wind-speed {
+    color: #000;
+    font-size: 18px;
+    text-align: center;
+}
+
+.location-box .location {
+    color: #000;
+    font-size: 18px;
+    text-align: center;
+}
+
+.weather-box .temperature {
+    color: #000;
+    font-size: 18px;
+    text-align: center;
+}
+
+.weather-box .weather {
+    color: #000;
+    font-size: 18px;
+    text-align: center;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 6px;
+  }
