@@ -6,7 +6,7 @@ const fetch = require("node-fetch")
 const path = require("path")
 let publicPath = path.resolve(__dirname, "public")
 app.use(express.static(publicPath))
-app.listen(port, () => console.log(`Example app listening on port ${port}!`))
+app.listen(port, () => console.log(`Listening on port ${port}!`))
 app.get('/forecast/:city', getWeather)
 
 //make call to 5 day forecast
