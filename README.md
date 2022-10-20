@@ -1,5 +1,5 @@
 # CSU44000 Internet Applications
-This contains my assignments for the Trinity College Dublin module Internet Applications.
+This contains my assignments for the Trinity College Dublin module Internet Applications completed using HTML, CSS and Vue.js.
 
 ## Assignment 1:
 
